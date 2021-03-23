@@ -50,7 +50,7 @@
         }
         
     }   
-        @media(min-width: 1920px)
+        /* @media(min-width: 1920px)
 {
   
         body{
@@ -59,7 +59,7 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
-            font-family: Arial;/*字體*/
+            font-family: Arial;
             background-color: #33495e;
         }
         .content{
@@ -77,14 +77,14 @@
             background-size:30% 100% ;
             width:30%;
             height: 100%;
-            font-family:Arial;/*字體*/
+            font-family:Arial;
             background-color: rgba(255, 255, 255, 0.479);
             background-attachment: scroll;
             background-size: cover;
             
             
             top:0%;
-            /* position:relative; */
+            
             transform: translate(200%,0%);
         }
         .down{
@@ -100,9 +100,9 @@
             
             
         }
-        
+    }        */
     
-    /* @media(max-width: 375px)
+    @media(max-width: 375px)
 {
     body{
         background-image: url(b2.jpg);
@@ -162,4 +162,4 @@
     }
     
 }
- */
+
