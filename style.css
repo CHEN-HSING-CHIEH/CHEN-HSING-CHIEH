@@ -1,4 +1,4 @@
-@media(max-width: 1920px)
+@media(max-width: 1920px)/*電腦版*/
 {
   
         body{
@@ -11,14 +11,16 @@
             background-color: #33495e;
         }
         .content{
-            
-            width:300px;
+            font-size:45px;
+            font-style:italic;
+            width:650px;
             /* padding:40px; */
             position: absolute;
             top:45%;
             left:35%;
-            transform: translate(-55%,-540%);
+            transform: translate(-45%,-540%);
             color:#007799;
+            font-family:Bookman, URW Bookman L, seri;
         }
         
         .right{
@@ -63,7 +65,7 @@
             background-color: #33495e;
         }
         .content{
-            <span style="font-size:4cm;">1cm</span><br>
+        
             width:300px;
             padding:40px;
             position: absolute;
@@ -125,7 +127,7 @@
     }
     
     .right{
-        background-size:30%,30% ;
+        background-size:cover ;
         width:30%;
         height:30%;
         font-family:Arial;/*字體*/
@@ -154,7 +156,7 @@
         /* height: 500px; */
         background-color:rgba(174, 205, 247, 0.623);
         position: center;
-        width:100%
+        width:100%;
         background-attachment: fixed;
         text-align:center;
         transform: translate(0%,0%);
