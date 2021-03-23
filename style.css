@@ -1,0 +1,78 @@
+@media(max-width: 1024px)
+{
+    body{
+        background-image: url(b2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: Arial;/*字體*/
+        background-color: #33495e;
+    }
+    .content{
+        <span style="font-size:4cm;">1cm</span><br>
+        width:300px;
+        padding:40px;
+        position: absolute;
+        top:45%;
+        left:35%;
+        transform: translate(-90%,-50%);
+        color:#007799;
+    }
+    
+    .right{
+        background-size:30% 100% ;
+        width:30%;
+        height: 130%;
+        font-family:Arial;/*字體*/
+        background-color: rgba(255, 255, 255, 0.479);
+        background-attachment: scroll;
+        background-size: cover;
+        
+        
+        top:0%;
+        /* position:relative; */
+        transform: translate(200%,0%);
+    }
+    
+}
+@media(min-width: 450px)
+{
+    body{
+        background-image: url(b2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: Arial;/*字體*/
+        background-color: #33495e;
+    }
+    .content{
+        <span style="font-size:4cm;">1cm</span><br>
+        width:300px;
+        padding:40px;
+        position: absolute;
+        top:45%;
+        left:35%;
+        transform: translate(-90%,-50%);
+        color:#007799;
+    }
+    
+    .right{
+        background-size:30% 100% ;
+        width:30%;
+        height: 130%;
+        font-family:Arial;/*字體*/
+        background-color: rgba(255, 255, 255, 0.479);
+        background-attachment: scroll;
+        background-size: cover;
+        
+        
+        top:0%;
+        /* position:relative; */
+        transform: translate(200%,0%);
+    }
+    
+}
+
+
