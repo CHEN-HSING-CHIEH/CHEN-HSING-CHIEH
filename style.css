@@ -1,4 +1,4 @@
-@media(max-width: 1024px)
+@media(max-width: 920px)
 {
     body{
         background-image: url(b2.jpg);
@@ -21,9 +21,9 @@
     }
     
     .right{
-        background-size:30% 100% ;
+        background-size:25% 90% ;
         width:30%;
-        height: 130%;
+        height: 110%;
         font-family:Arial;/*字體*/
         background-color: rgba(255, 255, 255, 0.479);
         background-attachment: scroll;
@@ -33,10 +33,20 @@
         top:0%;
         /* position:relative; */
         transform: translate(200%,0%);
+    }
+    .down{
+        font-family:Arial;
+        background-size: 100%,400px;
+        height: 500px;
+        background-color:rgba(174, 205, 247, 0.623);
+        position: center;
+        background-attachment: fixed;
+        text-align:center
+        
     }
     
 }
-@media(min-width: 450px)
+@media(min-width:360px)
 {
     body{
         background-image: url(b2.jpg);
@@ -48,7 +58,7 @@
         background-color: #33495e;
     }
     .content{
-        <span style="font-size:4cm;">1cm</span><br>
+        <span style="font-size:32px;">
         width:300px;
         padding:40px;
         position: absolute;
@@ -72,7 +82,17 @@
         /* position:relative; */
         transform: translate(200%,0%);
     }
-    
+    .down{
+        font-family:Arial;
+        text-align:center;
+        background-size: cover;
+        height: 500px;
+        background-color:rgba(174, 205, 247, 0.623);
+        position: center;
+        background-attachment: fixed;
+        
+        
+    }
 }
 
 
