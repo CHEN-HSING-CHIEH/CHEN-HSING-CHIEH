@@ -1,4 +1,108 @@
-@media(max-width: 920px)
+@media(max-width: 1920px)
+{
+  
+        body{
+            background-image: url(b2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: Arial;/*字體*/
+            background-color: #33495e;
+        }
+        .content{
+            
+            width:300px;
+            /* padding:40px; */
+            position: absolute;
+            top:45%;
+            left:35%;
+            transform: translate(-55%,-540%);
+            color:#007799;
+        }
+        
+        .right{
+            background-size:30% 40% ;
+            width:30%;
+            height: 40%;
+            font-family:Arial;/*字體*/
+            background-color: rgba(255, 255, 255, 0.479);
+            background-attachment: scroll;
+            background-size: cover;
+            
+            
+            top:0%;
+            /* position:relative; */
+            transform: translate(200%,0%);
+        }
+        .down{
+            bottom: 0px;
+            font-family:Arial;
+            text-align:center;
+            background-size: cover;
+            height: 500px;
+            background-color:rgba(174, 205, 247, 0.623);
+            position: center;
+            background-attachment: fixed;
+            transform: translate(0%,0%);
+            
+            
+        }
+        
+    
+        @media(min-width: 1920px)
+{
+  
+        body{
+            background-image: url(b2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: Arial;/*字體*/
+            background-color: #33495e;
+        }
+        .content{
+            <span style="font-size:4cm;">1cm</span><br>
+            width:300px;
+            padding:40px;
+            position: absolute;
+            top:45%;
+            left:35%;
+            transform: translate(-90%,-50%);
+            color:#007799;
+        }
+        
+        .right{
+            background-size:30% 100% ;
+            width:30%;
+            height: 100%;
+            font-family:Arial;/*字體*/
+            background-color: rgba(255, 255, 255, 0.479);
+            background-attachment: scroll;
+            background-size: cover;
+            
+            
+            top:0%;
+            /* position:relative; */
+            transform: translate(200%,0%);
+        }
+        .down{
+            bottom: 0px;
+            font-family:Arial;
+            text-align:center;
+            background-size: cover;
+            height: 500px;
+            background-color:rgba(174, 205, 247, 0.623);
+            position: center;
+            background-attachment: fixed;
+            transform: translate(0%,0%);
+            
+            
+        }
+        
+    
+    @media(max-width: 375px)
 {
     body{
         background-image: url(b2.jpg);
@@ -10,20 +114,20 @@
         background-color: #33495e;
     }
     .content{
-        <span style="font-size:4cm;">1cm</span><br>
+        font-size:35px;
         width:300px;
         padding:40px;
         position: absolute;
-        top:45%;
-        left:35%;
-        transform: translate(-90%,-50%);
+        top:15%;
+        left:50%;
+        transform: translate(-100%,-100%);
         color:#007799;
     }
     
     .right{
-        background-size:25% 90% ;
+        background-size:30%,30% ;
         width:30%;
-        height: 110%;
+        height:30%;
         font-family:Arial;/*字體*/
         background-color: rgba(255, 255, 255, 0.479);
         background-attachment: scroll;
@@ -31,68 +135,31 @@
         
         
         top:0%;
-        /* position:relative; */
+        
         transform: translate(200%,0%);
     }
-    .down{
-        font-family:Arial;
-        background-size: 100%,400px;
-        height: 500px;
-        background-color:rgba(174, 205, 247, 0.623);
-        position: center;
-        background-attachment: fixed;
-        text-align:center
-        
-    }
-    
-}
-@media(min-width:360px)
-{
-    body{
-        background-image: url(b2.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        font-family: Arial;/*字體*/
-        background-color: #33495e;
-    }
-    .content{
-        <span style="font-size:32px;">
-        width:300px;
-        padding:40px;
-        position: absolute;
-        top:45%;
-        left:35%;
-        transform: translate(-90%,-50%);
-        color:#007799;
-    }
-    
-    .right{
-        background-size:30% 100% ;
-        width:30%;
-        height: 130%;
-        font-family:Arial;/*字體*/
-        background-color: rgba(255, 255, 255, 0.479);
-        background-attachment: scroll;
-        background-size: cover;
-        
-        
-        top:0%;
-        /* position:relative; */
-        transform: translate(200%,0%);
-    }
-    .down{
-        font-family:Arial;
+    /* .curriculum{
+        background-color:rgba(255, 255, 255, 0.507);
+        background-size:100%,25%;
         text-align:center;
-        background-size: cover;
-        height: 500px;
+        position:center;
+        width:100%;
+        height:25%;
+        transform: translate(0%,0%);
+    } */
+    .down{
+        bottom:0px;
+        font-family:Arial;
+        background-size: 100%,30%;
+        /* height: 500px; */
         background-color:rgba(174, 205, 247, 0.623);
         position: center;
+        width:100%
         background-attachment: fixed;
-        
+        text-align:center;
+        transform: translate(0%,0%);
         
     }
+    
 }
-
 
